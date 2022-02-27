@@ -1,0 +1,36 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+#vol {
+  float: left;
+  margin-left: 20px;
+}
+#speed {
+  float: right;
+  margin: 20px;
+}
+#AI {
+  font-size: 16px;
+}
+
+canvas {
+  margin-top: 20px;
+  border-radius: 20px;
+  animation-name: music;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes music {
+  from {
+    box-shadow: 3px 3px 20px gold;
+  }
+  to {
+    box-shadow: 3px 3px 20px yellow;
+  }
+}
+video {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
